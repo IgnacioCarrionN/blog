@@ -8,6 +8,7 @@ enableToc: true
 enableTocContent: false
 author: Ignacio
 authorEmoji: 🤖
+image: images/kotlin/kotlin-logo.png
 tags: 
 - kotlin
 - android
