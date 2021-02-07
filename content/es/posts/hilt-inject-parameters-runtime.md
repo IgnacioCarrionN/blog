@@ -9,7 +9,7 @@ enableTocContent: false
 author: Ignacio
 authorEmoji: 🤖
 image: images/kotlin/kotlin-logo.png
-draft:true
+draft: true
 tags: 
 - kotlin
 - android
