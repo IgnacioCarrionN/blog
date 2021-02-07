@@ -1,4 +1,4 @@
-baseURL = "https://ignacio.carrion.dev/blog/"
+baseURL = "https://carrion.dev/"
 title = "Carrion.dev"
 theme = "zzo"
 
