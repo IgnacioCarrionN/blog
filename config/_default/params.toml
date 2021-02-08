@@ -24,7 +24,7 @@ enableAppbarSearchIcon = true
 enableAppbarLangIcon = true
 
 # header
-homeHeaderType = "typewriter" # text, img, slide, typewriter
+homeHeaderType = "text" # text, img, slide, typewriter
 hideHomeHeaderWhenMobile = false
 
 # menu
