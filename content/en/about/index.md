@@ -5,23 +5,16 @@ type = "about"
 date = "2019-02-28"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
-Hugo makes use of a variety of open source projects including:
+# About.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I'm Ignacio Carrión, I live in Valencia (Spain) and the one who appears on the avatar is my dog Wilfred. I like anything related to IT and videogames. At the moment I'm working as Android Engineer for [Tacter](https://tacter.app). Before that I worked as Android Developer for other companies and I worked as a programming teacher. While I was working as a teacher, I realized that I love learning and helping others to learn with me. From this motivation arrises the idea of this blog, [Carrion.dev](https://carrion.dev). 
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+I hope I can publish something interesting about Kotlin or Android ecosystem at least twice a month. Constructive criticism or ideas about posts will be welcomed. Below you can see the links to my social networks where you can find and contact me.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+# Contact 
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+[Portfolio](https://ignacio.carrion.dev/)
+[Github](https://github.com/IgnacioCarrionN)
 
 

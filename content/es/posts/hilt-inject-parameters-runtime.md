@@ -2,15 +2,15 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Hilt: Inyectar valores al ViewModel en tiempo de ejecución."
-date: 2021-02-07T10:00:06+01:00
+date: 2021-02-24T07:00:06+01:00
 description: "Como inyectar valores en tiempo de ejecución a los ViewModel en Android."
 hideToc: false
 enableToc: true
 enableTocContent: false
 author: Ignacio
-authorEmoji: 🤖
+authorEmoji: 💉
 image: images/kotlin/kotlin-logo.png
-draft: true
+draft: false
 tags: 
 - kotlin
 - android
