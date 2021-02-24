@@ -3,7 +3,7 @@ author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Hilt: Inyectar valores al ViewModel en tiempo de ejecución."
 date: 2021-02-07T10:00:06+01:00
-description: "First post in my new Kotlin and Android development blog"
+description: "Como inyectar valores en tiempo de ejecución a los ViewModel en Android."
 hideToc: false
 enableToc: true
 enableTocContent: false
@@ -44,6 +44,14 @@ Y también las siguientes líneas a nuestras dependencias:
 implementation 'com.google.dagger:hilt-android:2.31.2-alpha'  
 kapt 'com.google.dagger:hilt-android-compiler:2.31.2-alpha'
 ```
+
+También hay que tener en cuenta tener añadido en nuestro `build.gradle` el plugin de `kapt`. Para ello añadiremos lo siguiente a nuestro archivo de `build.gradle` del módulo app junto al resto de plugins:
+
+``` groovy
+apply plugin: 'kotlin-kapt'
+```
+
+Esa son las dependencias necesarias para implementar Hilt en nuestro proyecto. A lo largo de este post se usan distintas librerías como que no se definen en este artículo.
 
 En este enlace puedes ver un ejemplo de un archivo `build.gradle` completo: [app/build.gradle](https://github.com/IgnacioCarrionN/HiltAssistedInject/blob/master/app/build.gradle)
 
@@ -97,6 +105,19 @@ class Factory(
 }
 ```
 
+Como puedes ver necesitamos la interfaz UserViewModelAssistedFactory que es la encargada de proveer los parámetros en tiempo de ejecución. Esta interfaz la implementamos de la siguiente forma:
+
+``` kotlin
+@AssistedFactory
+interface UserViewModelAssistedFactory {
+
+    fun create(name: String): UserViewModel
+
+}
+```
+
+Se trata de una interfaz con una función `create` que recibe los parámetros a inyectar en tiempo de ejecución. En nuestro caso solo necesitamos el `name`, pero en caso de necesitar inyectar más parámetros en tiempo de ejecución, se pasarían como parámetro a esta función.
+
 Con esto ya podemos completar nuestro ViewModel con la lógica necesaria para pedir la respuesta al repositorio y exponer al `Fragment` o `Activity` a través de un StateFlow.
 
 El ViewModel completo quedaría:
@@ -147,7 +168,7 @@ abstract class MainModule {
 }
 ```
 
-En este módulo declaramos un `Dispatcher` para que sea más sencillo testear este ViewModel en un futuro. Y hacemos `@Binds` de nuestra interfaz con su implementación.
+En este módulo declaramos un `Dispatcher` para que sea más sencillo testear este ViewModel en un futuro. Y hacemos `@Binds` de nuestra interfaz `UserRepository` con su implementación `UserRepositoryImpl`.
 
 Ahora podemos inyectar nuestro repositorio en una `Activity` o `Fragment` de la siguiente forma:
 
@@ -166,18 +187,18 @@ Simplemente nos faltaría observar los cambios en el StateFlow del ViewModel par
 ``` kotlin
 override fun onViewCreated(view: View, savedInstanceState: Bundle?) {  
     super.onViewCreated(view, savedInstanceState)  
-    lifecycleScope.launchWhenStarted {  
-        userViewModel.message.collect {  
-            binding.name.text = it  
-        } 
+    viewLifecycleOwner.lifecycleScope.launchWhenStarted {
+        userViewModel.message.collect {
+            binding.name.text = it
+        }
     }
 }
 ```
+
+> Recordar que es necesario anotar una clase que extienda de Application con `@HiltAndroidApp` y cada uno de las Activities o Fragments que usen inyección con Hilt con la anotación `@AndroidEntryPoint`.
 
 ## Conclusión
 
 Como hemos podido observar con `@AssistedInject` de Dagger podemos inyectar valores en tiempo de ejecución de una forma sencilla y podemos seguir utilizando los `navArgs` de AndroidX.
 
 En el siguiente repositorio teneis el ejemplo completo: [HiltAssistedInject](https://github.com/IgnacioCarrionN/HiltAssistedInject)
-
-En el próximo artículo hablaremos sobre como podemos hacer tests instrumentales a `Fragment` que usan Hilt.
