@@ -92,7 +92,7 @@ enableLangChange = true
 enableThemeChange = true
 
 # service
-googleTagManager = "" # GTM-XXXXXX
+googleTagManager = "GTM-5MHDD48" # GTM-XXXXXX
 baiduAnalytics = ""
 enableBusuanzi = false
 busuanziSiteUV = true
