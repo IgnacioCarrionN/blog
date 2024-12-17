@@ -1,7 +1,7 @@
 ---
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
-title: "Condiciones en las expresiones `when` para Kotlin 2.1.0."
+title: "Condiciones en las expresiones when para Kotlin 2.1.0."
 date: 2024-12-17T08:00:00+01:00
 description: "Nueva funcionalidad en Kotlin 2.1.0, condiciones en las expresiones when"
 hideToc: false
@@ -14,7 +14,7 @@ tags:
 - android
 - kmp
 ---
-# Condiciones en las expresiones `when` en Kotlin 2.1.0
+# Condiciones en las expresiones when en Kotlin 2.1.0
 
 Una de las nuevas funcionalidades de `Kotlin 2.1.0` es las condiciones en las expresiones `when`, lo que tendría varias ventajas entre las que se incluye:
 - Reducir anidaciones

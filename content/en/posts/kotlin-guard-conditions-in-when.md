@@ -1,7 +1,7 @@
 ---
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
-title: "Guard conditions in `when` starting in Kotlin 2.1.0."
+title: "Guard conditions in when starting in Kotlin 2.1.0."
 date: 2024-12-17T08:00:00+01:00
 description: "New feature since Kotlin 2.1.0, guard conditions in when expressions"
 hideToc: false
@@ -14,7 +14,7 @@ tags:
 - android
 - kmp
 ---
-# Guard conditions in `when` in Kotlin 2.1.0
+# Guard conditions in when in Kotlin 2.1.0
 
 One of the new features in `Kotlin 2.1.0` is the guard conditions on `when` expressions, this feature will bring some advantages like:
 - Reduce nesting
