@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Exportar a Swift en KMP"
-date: 2024-12-17T08:00:00+01:00
+date: 2024-12-18T08:00:00+01:00
 description: "Nueva funcionalidad en Kotlin 2.1.0, exportar directamente a swift desde Kotlin"
 hideToc: false
 enableToc: true

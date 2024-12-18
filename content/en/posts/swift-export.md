@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Swift export in KMP"
-date: 2024-12-17T08:00:00+01:00
+date: 2024-12-18T08:00:00+01:00
 description: "New feature in Kotlin 2.1.0, basic swift export from Kotlin"
 hideToc: false
 enableToc: true
