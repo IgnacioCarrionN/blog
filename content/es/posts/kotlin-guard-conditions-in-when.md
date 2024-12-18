@@ -26,9 +26,9 @@ Una de las nuevas funcionalidades de `Kotlin 2.1.0` es las condiciones en las ex
 Esta funcionalidad se encuentra en preview lo que es necesario activarla explícitamente para poder usarla en `Kotlin 2.1.0`. En el fichero `build.gradle.kts` añadiremos el siguiente código dentro del bloque de `kotlin {}`:
 ``` kotlin
 kotlin {
-	compilerOptions {  
-		freeCompilerArgs.add("-Xwhen-guards")  
-	}
+    compilerOptions {
+        freeCompilerArgs.add("-Xwhen-guards")
+    }
 }
 ```
 

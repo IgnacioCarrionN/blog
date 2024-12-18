@@ -27,9 +27,9 @@ This feature is in preview state, for this you need to enable it starting on `Ko
 
 ``` kotlin
 kotlin {
-	compilerOptions {  
-		freeCompilerArgs.add("-Xwhen-guards")  
-	}
+    compilerOptions {  
+        freeCompilerArgs.add("-Xwhen-guards")  
+    }
 }
 ```
 
