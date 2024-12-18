@@ -54,11 +54,15 @@ El siguiente paso es configurar xcode para lanzar la nueva tarea `embedSwiftExpo
 
 Debes cambiar esta línea:
 
-`shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignAppleFrameworkForXcode\n";`
+```
+shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignAppleFrameworkForXcode\n";
+```
 
 Por esta otra:
 
-`shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedSwiftExportForXcode\n";`
+```
+shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedSwiftExportForXcode\n";
+```
 
 Después de aplicar estos cambios deberías ser capaz de lanzar la aplicación de iOS desde Android Studio o desde xcode sin ningún problema.
 

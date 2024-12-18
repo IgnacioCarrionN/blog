@@ -55,11 +55,15 @@ Next step is configuring xcode to launch the new task `embedSwiftExportForXcode`
 
 You should change this line:
 
-`shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignAppleFrameworkForXcode\n";`
+```
+shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignAppleFrameworkForXcode\n";
+```
 
 With this one:
 
-`shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedSwiftExportForXcode\n";`
+```
+shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedSwiftExportForXcode\n";
+```
 
 After this changes you should be able to launch the app from Android Studio or xcode without any problems.
 
