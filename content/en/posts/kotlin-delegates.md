@@ -73,7 +73,14 @@ In #Koin, you can use the `by inject()` delegate to inject dependencies directly
 ```kotlin  
 class DelegatesFragment : Fragment() {  
     private val tracker: AnalyticsTracker by inject()  
-}  
+}
+
+inline fun <reified T : Any> KoinComponent.inject(
+    qualifier: Qualifier? = null,
+    mode: LazyThreadSafetyMode = KoinPlatformTools.defaultLazyMode(),
+    noinline parameters: ParametersDefinition? = null,
+): Lazy<T> =
+    lazy(mode) { get<T>(qualifier, parameters) }
 ```
 
 The `by inject()` delegate automatically resolves the dependency using Koin’s container. It abstracts the boilerplate, resulting in cleaner, testable code.
