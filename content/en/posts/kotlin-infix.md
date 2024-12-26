@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Kotlin Infix functions"
-date: 2024-12-23T08:00:00+01:00
+date: 2024-12-26T08:00:00+01:00
 description: "Advanced Kotlin - Infix functions"
 hideToc: false
 enableToc: true

@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Funciones Infix en Kotlin"
-date: 2024-12-23T08:00:00+01:00
+date: 2024-12-26T08:00:00+01:00
 description: "Kotlin avanzado - Funciones Infix"
 hideToc: false
 enableToc: true
