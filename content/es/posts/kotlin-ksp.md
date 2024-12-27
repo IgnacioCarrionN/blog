@@ -89,7 +89,7 @@ class AppModule
 class UserRepository
 
 @Factory
-class UserService(private val userRepository: UserRepository)
+class UserUseCase(private val userRepository: UserRepository)
 ```
 
 ### Módulo generado
