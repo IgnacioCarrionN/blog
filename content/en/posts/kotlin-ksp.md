@@ -255,13 +255,8 @@ class KspBuilderProcessor(
             "kotlin.Int", "kotlin.Long", "kotlin.Short", "kotlin.Byte" -> "0"
             "kotlin.Double", "kotlin.Float" -> "0.0"
             "kotlin.Boolean" -> "false"
-            else -> property.findDefaultValue() ?: "throw IllegalArgumentException(\"Non-nullable type \$propType requires a default value\")"
+            else -> throw IllegalArgumentException("Non-nullable type $propType requires a default value")
         }
-    }
-
-    private fun KSPropertyDeclaration.findDefaultValue(): String? {
-        // Implement logic to parse and retrieve default values from annotations or source code
-        return null
     }
 }
 ```
