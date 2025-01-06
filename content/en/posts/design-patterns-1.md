@@ -3,7 +3,7 @@ author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Kotlin Design Patterns - Part 1"
 date: 2024-12-30T08:00:00+01:00
-description: "Kotlin Design Patterns - Creational and Structural design patterns"
+description: "Kotlin Design Patterns - Part 1"
 hideToc: false
 enableToc: true
 enableTocContent: false
@@ -15,7 +15,13 @@ tags:
 - architecture
 ---
 
-### **Exploring Creational and Structural Design Patterns in Kotlin**
+### **Exploring Design Patterns in Kotlin - Part 1**
+
+#### Design Patterns Series
+
+- [Part 2](https://carrion.dev/en/posts/design-patterns-2/)
+
+---
 
 Design patterns are proven solutions to common problems in software design. With Kotlin’s expressive syntax and modern features, implementing these patterns often becomes cleaner and more concise. In this post, we’ll explore **Singleton**, **Factory Method**, **Builder**, **Adapter** and **Decorator** patterns, delving into their purpose, use cases, and Kotlin implementations.
 
