@@ -3,7 +3,7 @@ author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Patrones de diseño en Kotlin - Parte 1"
 date: 2024-12-30T08:00:00+01:00
-description: "Kotlin Patrones de diseño - Creacionales y Estructurales"
+description: "Kotlin Patrones de diseño - Parte 1"
 hideToc: false
 enableToc: true
 enableTocContent: false
@@ -15,7 +15,13 @@ tags:
 - architecture
 ---
 
-### **Explorando patrones de diseño Creacionales y Estructurales en Kotlin**
+### **Explorando patrones de diseño en Kotlin - Parte 1**
+
+#### Serie Patrones de diseño
+
+- [Parte 2](https://carrion.dev/es/posts/design-patterns-2/)
+
+---
 
 Los patrones de diseño son soluciones probadas a problemas comunes en el diseño de software. Con la sintaxis y funcionalidades modernas de Kotlin, implementar estos patrones normalmente resulta más limpio y conciso. En este post, exploraremos los patrones de **Singleton**, **Factory Method**, **Builder**, **Adapter** and **Decorator**, profundizando en su propósito, casos de uso y implementaciones en Kotlin.
 
