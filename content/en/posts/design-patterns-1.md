@@ -19,7 +19,9 @@ tags:
 
 #### Design Patterns Series
 
+- [Part 1](https://carrion.dev/en/posts/design-patterns-1/)
 - [Part 2](https://carrion.dev/en/posts/design-patterns-2/)
+- [Part 3](https://carrion.dev/en/posts/design-patterns-3/)
 
 ---
 

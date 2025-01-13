@@ -19,7 +19,11 @@ tags:
 
 #### Serie Patrones de diseño
 
-- [Parte 2](https://carrion.dev/es/posts/design-patterns-2/)
+#### Design Patterns Series
+
+- [Part 1](https://carrion.dev/es/posts/design-patterns-1/)
+- [Part 2](https://carrion.dev/es/posts/design-patterns-2/)
+- [Part 3](https://carrion.dev/es/posts/design-patterns-3/)
 
 ---
 
