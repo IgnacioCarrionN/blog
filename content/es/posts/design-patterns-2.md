@@ -17,6 +17,14 @@ tags:
 
 ### **Explorando patrones de diseño en Kotlin: Parte2**
 
+#### Design Patterns Series
+
+- [Part 1](https://carrion.dev/es/posts/design-patterns-1/)
+- [Part 2](https://carrion.dev/es/posts/design-patterns-2/)
+- [Part 3](https://carrion.dev/es/posts/design-patterns-3/)
+
+---
+
 Después de la gran acogida del primer artículo [Patrones de diseño en Kotlin](https://carrion.dev/es/posts/design-patterns-1/), volvemos con más! En esta segunda parte, revisaremos los patrones de **Prototype**, **Composite**, **Proxy**, **Observer**, y **Strategy**. Estos patrones resuelven una variedad de desafios de diseño y demuestran las capacidades expresivas de Kotlin.
 
 ---
@@ -143,8 +151,6 @@ El **Patrón Observer** define una dependencia de uno-a-muchos, por lo que cuand
 ##### **Implementación en Kotlin**
 
 ```kotlin
-import kotlin.properties.Delegates
-
 fun interface StateChangeListener {
     fun onStateChanged(oldState: String, newState: String)
 }

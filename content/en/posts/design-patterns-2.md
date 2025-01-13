@@ -17,6 +17,14 @@ tags:
 
 ### **Exploring Design Patterns in Kotlin: Part 2**
 
+#### Design Patterns Series
+
+- [Part 1](https://carrion.dev/en/posts/design-patterns-1/)
+- [Part 2](https://carrion.dev/en/posts/design-patterns-2/)
+- [Part 3](https://carrion.dev/en/posts/design-patterns-3/)
+
+---
+
 After the overwhelming response to our first post on [Kotlin design patterns](https://carrion.dev/en/posts/design-patterns-1/), we’re back with more! In this second part, we’ll dive into **Prototype**, **Composite**, **Proxy**, **Observer**, and **Strategy** patterns. These patterns solve a variety of design challenges and demonstrate Kotlin’s expressive capabilities.
 
 ---
@@ -145,8 +153,6 @@ The **Observer Pattern** defines a one-to-many dependency, so when one object ch
 Using Kotlin's `fun interface` makes defining listeners more concise.
 
 ```kotlin
-import kotlin.properties.Delegates
-
 fun interface StateChangeListener {
     fun onStateChanged(oldState: String, newState: String)
 }
