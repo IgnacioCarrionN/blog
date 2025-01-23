@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Modularización en Proyectos Gradle con Kotlin"
-date: 2025-01-20T08:00:00+01:00
+date: 2025-01-23T08:00:00+01:00
 description: "Modularización en Proyectos Gradle con Kotlin: Una Guía Completa"
 hideToc: false
 enableToc: true
