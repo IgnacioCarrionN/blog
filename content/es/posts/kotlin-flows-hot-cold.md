@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Entendiendo los Hot y Cold Flows en Kotlin"
-date: 2024-03-06T08:00:00+01:00
+date: 2025-03-07T08:00:00+01:00
 description: "Una guía completa para entender las diferencias entre hot y cold flows en Kotlin, con ejemplos prácticos"
 hideToc: false
 enableToc: true
