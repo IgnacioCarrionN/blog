@@ -7,7 +7,7 @@ description: "Learn essential patterns for managing state in Jetpack Compose app
 hideToc: false
 enableToc: true
 enableTocContent: false
-image: images/android/state-management-compose.png
+image: images/kotlin/state-management-compose.png
 draft: false
 tags:
 - android
