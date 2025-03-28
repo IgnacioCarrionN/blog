@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Construyendo DSLs Tipados con Kotlin: De lo Básico a Patrones Avanzados"
-date: 2025-04-25T08:00:00+01:00
+date: 2025-03-25T08:00:00+01:00
 description: "Aprende a crear Lenguajes de Dominio Específico (DSLs) tipados en Kotlin usando @DslMarker para un mejor control de ámbito"
 hideToc: false
 enableToc: true
