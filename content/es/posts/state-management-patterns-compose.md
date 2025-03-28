@@ -7,7 +7,7 @@ description: "Aprende patrones esenciales para gestionar el estado en aplicacion
 hideToc: false
 enableToc: true
 enableTocContent: false
-image: images/android/state-management-compose.png
+image: images/kotlin/state-management-compose.png
 draft: false
 tags:
 - android
