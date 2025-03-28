@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Building Type-safe DSLs with Kotlin: From Basics to Advanced Patterns"
-date: 2025-04-25T08:00:00+01:00
+date: 2025-03-25T08:00:00+01:00
 description: "Learn how to create type-safe Domain-Specific Languages (DSLs) in Kotlin using @DslMarker for better scope control"
 hideToc: false
 enableToc: true
