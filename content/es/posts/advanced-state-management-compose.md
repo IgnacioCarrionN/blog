@@ -7,7 +7,7 @@ description: "Análisis profundo de la gestión avanzada de estado en Jetpack Co
 hideToc: false
 enableToc: true
 enableTocContent: false
-image: images/android/state-management-compose-advanced.png
+image: images/kotlin/state-management-compose-advanced.png
 draft: false
 tags:
 - android
