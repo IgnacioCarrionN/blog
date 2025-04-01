@@ -7,7 +7,7 @@ description: "Deep dive into advanced state management in Jetpack Compose, inclu
 hideToc: false
 enableToc: true
 enableTocContent: false
-image: images/android/state-management-compose-advanced.png
+image: images/kotlin/state-management-compose-advanced.png
 draft: false
 tags:
 - android
