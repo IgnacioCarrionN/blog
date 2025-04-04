@@ -7,7 +7,7 @@ description: "Análisis profundo sobre la creación de animaciones y transicione
 hideToc: false
 enableToc: true
 enableTocContent: false
-image: images/kotlin/pulsating-dot.png
+image: images/kotlin/pulsating-dot.gif
 draft: false
 tags:
 - android
@@ -64,7 +64,7 @@ fun CustomAnimatedButton(
 }
 ```
 
-![Custom Animated Button](images/kotlin/custom-animated-button.gif)
+![Custom Animated Button](https://carrion.dev/images/kotlin/custom-animated-button.gif)
 
 ### Animaciones Infinitas
 
@@ -96,7 +96,7 @@ fun PulsatingDot(
 }
 ```
 
-![Pulsating Dot](images/kotlin/pulsating-dot.gif)
+![Pulsating Dot](https://carrion.dev/images/kotlin/pulsating-dot.gif)
 
 ## Implementando Transiciones Personalizadas
 
@@ -122,7 +122,7 @@ fun AnimatedContent(
 }
 ```
 
-![Animated Content](images/kotlin/animated-content.gif)
+![Animated Content](https://carrion.dev/images/kotlin/animated-content.gif)
 
 ### Especificaciones de Transición Personalizadas
 
@@ -162,7 +162,7 @@ fun CustomTransitionCard(
 }
 ```
 
-![Custom Transition Card](images/kotlin/custom-transition-card.gif)
+![Custom Transition Card](https://carrion.dev/images/kotlin/custom-transition-card.gif)
 
 ## Mejores Prácticas y Optimización de Rendimiento
 
