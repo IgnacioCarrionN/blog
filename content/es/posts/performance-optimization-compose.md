@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Optimización de Rendimiento en Jetpack Compose"
-date: 2024-04-08T08:00:00+01:00
+date: 2025-04-08T08:00:00+01:00
 description: "Aprende técnicas esenciales y mejores prácticas para optimizar el rendimiento en aplicaciones con Jetpack Compose, incluyendo optimización de composición, control de recomposición y gestión de memoria"
 hideToc: false
 enableToc: true
@@ -209,7 +209,7 @@ Para usar Layout Inspector con Compose:
    - Analizar cadenas de modificadores
    - Inspeccionar parámetros de composables
 
-[Toggle Layout inspector](https://carrion.dev/images/kotlin/layout-inspector.png)
+![Toggle Layout inspector](https://carrion.dev/images/kotlin/layout-inspector.png)
 
 Métricas clave para monitorear en Layout Inspector:
 1. Conteos de recomposición - Números altos indican oportunidades potenciales de optimización
