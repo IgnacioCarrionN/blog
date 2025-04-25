@@ -2,7 +2,7 @@
 author: "Ignacio Carrión"
 authorImage: "/images/bio/wilfred.png"
 title: "Entendiendo los Context parameters en Kotlin 2.2.0"
-date: 2024-04-25T08:00:00+01:00
+date: 2025-04-25T08:00:00+01:00
 description: "Explorando la nueva característica de Context parameters de Kotlin 2.2.0 y cómo puede mejorar la legibilidad y mantenibilidad de tu código."
 hideToc: false
 enableToc: true
