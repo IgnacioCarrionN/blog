@@ -7,7 +7,7 @@ description: "Cómo aplicar el Principio de Inversión de Dependencias de SOLID 
 hideToc: false
 enableToc: true
 enableTocContent: false
-image: images/kotlin/di-fix.png
+image: images/kotlin/dip.png
 draft: false
 tags:
 - architecture

@@ -7,7 +7,7 @@ description: "How applying the Dependency Inversion Principle from SOLID togethe
 hideToc: false
 enableToc: true
 enableTocContent: false
-image: images/kotlin/di-fix.png
+image: images/kotlin/dip.png
 draft: false
 tags:
 - architecture
